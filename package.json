@@ -4,12 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "install-client": "npm install --prefix ./client",
-    "client": "npm start --prefix ./client",
+    "install-client": "npm install --prefix client",
+    "build-client": "npm run build  --prefix client",
+    "client": "npm start --prefix client",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
     "dev": "concurrently \"npm run client \" \"npm start\"",
-    "heroku-postbuild": "npm install --prefix ./client && npm run build --prefix ./client"
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,7 @@
     "mongoose": "^5.11.8"
   },
   "engines": {
-    "node": "14.15.0"
+    "node": "14.15.0",
+    "npm": "6.14.8"
   }
 }
