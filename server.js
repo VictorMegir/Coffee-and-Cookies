@@ -30,10 +30,13 @@ server.use('/api/items', items);
 const orders = require('./routes/api/orders');
 server.use('/api/order', orders);
 
+// Resolve favicon
+const favicon = require("serve-favicon");
+server.use(favicon(path.join(dirname, "build", "favicon.ico")));
+
 // Serve static assets if in production
 if(process.env.NODE_ENV === 'production') {
     server.use(express.static('client/build'));
-    server.use(favicon(path.join(dirname, "build", "favicon.ico")));
 
     server.get('/*', (req, res) => {
         res.sendFile(path.resolve(__dirname + 'client' ,'build', 'index.html'));
