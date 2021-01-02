@@ -1,0 +1,47 @@
+.order-form 
+{
+    height: 90vh;
+    .nav-buttons
+    {
+        display: flex;
+        justify-content: center;
+        padding: 5%;
+
+        .nav-button 
+        {
+            padding-right: 5%;
+            padding-left: 5%;
+            a { 
+                text-decoration: none;
+                color: #000000;
+                opacity: 85%;
+                &:hover { opacity: 70%; cursor: pointer; }
+            }
+        }
+
+    }
+    .form-body form
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        div { padding: 20px; }
+        .text-field { font-size: 32px; }
+
+        .order-button 
+        {
+            font-size: 32px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            color: #FFFFFF;
+            background-color: #3F3D56;
+            border: 0;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 3px 3px 10px grey;
+            outline-width: 0;
+            &:hover { opacity: 85%; }
+        }
+    }
+}

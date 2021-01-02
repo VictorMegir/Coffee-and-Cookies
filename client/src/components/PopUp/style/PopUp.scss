@@ -1,0 +1,43 @@
+.overlay 
+{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0000008c;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+
+.popup
+{
+    position: absolute;
+    z-index: 100;
+    padding: 10px;
+    margin: auto;
+    left: 30%;
+    right: 30%;
+    border-radius: 10px;
+    background-color: ghostwhite;
+
+    .item-image 
+    {
+        width: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+
+    .item-description { font-size: 26px; }
+
+    .close-button 
+    {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 32px;
+        color: #000000;
+        opacity: 85%;
+        &:hover { cursor: pointer; }
+    }
+}

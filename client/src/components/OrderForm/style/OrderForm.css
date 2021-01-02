@@ -1,0 +1,69 @@
+.order-form {
+  height: 90vh;
+}
+
+.order-form .nav-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5%;
+}
+
+.order-form .nav-buttons .nav-button {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.order-form .nav-buttons .nav-button a {
+  text-decoration: none;
+  color: #000000;
+  opacity: 85%;
+}
+
+.order-form .nav-buttons .nav-button a:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.order-form .form-body form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.order-form .form-body form div {
+  padding: 20px;
+}
+
+.order-form .form-body form .text-field {
+  font-size: 32px;
+}
+
+.order-form .form-body form .order-button {
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #3F3D56;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-box-shadow: 3px 3px 10px grey;
+          box-shadow: 3px 3px 10px grey;
+  outline-width: 0;
+}
+
+.order-form .form-body form .order-button:hover {
+  opacity: 85%;
+}
+/*# sourceMappingURL=OrderForm.css.map */

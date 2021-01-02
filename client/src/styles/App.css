@@ -1,0 +1,153 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.large-text {
+  font-size: 62px;
+  opacity: 100%;
+}
+
+.medium-text {
+  font-size: 42px;
+  opacity: 85%;
+}
+
+.small-text {
+  font-size: 32px;
+  opacity: 70%;
+}
+
+.declaration {
+  padding: 25px;
+  padding-left: 100px;
+  background-color: #af8c79;
+  text-transform: capitalize;
+}
+
+.item-price-list {
+  padding-left: 100px;
+}
+
+.item-price-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.item-price-list li .price {
+  padding-right: 15px;
+}
+
+.item-price-list li .price::after {
+  content: '€';
+}
+
+.item-price-list li .item span:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right-side {
+  width: 40%;
+  display: inline-block;
+  padding-right: 100px;
+  padding-top: 10%;
+}
+
+.right-side img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.left-side {
+  width: 50%;
+}
+
+.left-side .item {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-bottom: 20px;
+}
+
+.container .more-items, .container .less-items {
+  text-align: center;
+  display: inline;
+  padding: 15px;
+}
+
+.container .more-items:hover span, .container .less-items:hover span {
+  opacity: 70%;
+}
+
+.arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+}
+
+.arrows .arrow {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.arrows .arrow:hover {
+  cursor: pointer;
+}
+
+.sum::after {
+  content: '€';
+}
+
+.landing-page {
+  background-color: #af8c7950;
+}
+
+.cookies-menu {
+  background-color: #af8c79a0;
+}
+
+.coffee-menu {
+  background-color: #af8c7970;
+}
+
+.order-form {
+  background-color: #af8c7950;
+}
+/*# sourceMappingURL=App.css.map */

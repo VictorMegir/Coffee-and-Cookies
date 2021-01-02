@@ -1,0 +1,54 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0000008c;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popup {
+  position: absolute;
+  z-index: 100;
+  padding: 10px;
+  margin: auto;
+  left: 30%;
+  right: 30%;
+  border-radius: 10px;
+  background-color: ghostwhite;
+}
+
+.popup .item-image {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 10px;
+}
+
+.popup .item-description {
+  font-size: 26px;
+}
+
+.popup .close-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 32px;
+  color: #000000;
+  opacity: 85%;
+}
+
+.popup .close-button:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=PopUp.css.map */
