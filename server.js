@@ -33,7 +33,9 @@ server.use('/api/order', orders);
 // Serve static assets if in production
 if(process.env.NODE_ENV === 'production') {
     server.use(express.static('client/build'));
-    server.get('*', (req, res) => {
+    server.use(favicon(path.join(dirname, "build", "favicon.ico")));
+
+    server.get('/*', (req, res) => {
         res.sendFile(path.resolve(__dirname + 'client' ,'build', 'index.html'));
     });
 };
