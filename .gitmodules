@@ -1,3 +1,6 @@
 [submodule "client"]
 	path = client
 	url = ./client
+[submodule "\\Users\\me\\Desktop\\tiny-ghost\\client"]
+	path = \\Users\\me\\Desktop\\tiny-ghost\\client
+	url = C:\\Users\\me\\Desktop\\tiny-ghost\\client
