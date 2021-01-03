@@ -39,7 +39,7 @@ function OrderSelection({ item, order, setOrder })
                 <i className="fa fa-angle-left small-text arrow" style={{opacity: 0.4, cursor: 'auto'}}></i>
             )}
             </div>
-            <div className='small-text'>{quantity}</div>
+            <div className='small-text quantity'>{quantity}</div>
             <div><i className="fa fa-angle-right small-text arrow" onClick={() => addHandler(item)}></i></div>
         </div>
     );

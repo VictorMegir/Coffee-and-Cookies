@@ -40,12 +40,15 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 5%;
   padding-bottom: 2.5%;
 }
 
 .item-price-list li .price {
-  padding-right: 15px;
+  padding-right: 1.5%;
 }
 
 .item-price-list li .price::after {
@@ -110,7 +113,7 @@
 .container .more-items, .container .less-items {
   text-align: center;
   display: inline;
-  padding: 15px;
+  padding: 2.5%;
 }
 
 .container .more-items:hover span, .container .less-items:hover span {
@@ -157,5 +160,69 @@
 
 .order-form {
   background-color: #af8c7950;
+}
+
+@media screen and (max-width: 1350px) {
+  div.order-form {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  div.landing-page div.left-side div.button-container a button {
+    font-size: 2.45vw;
+  }
+  .large-text {
+    font-size: 5.45vw;
+  }
+  .medium-text {
+    font-size: 3.45vw;
+  }
+  .small-text {
+    font-size: 2.45vw;
+  }
+  .button-container a button {
+    font-size: 2.45vw;
+  }
+  .order-form div.form-body form div input.text-field {
+    font-size: 2.45vw;
+  }
+  .order-form div.form-body form div input.order-button {
+    font-size: 2.45vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div.left-side ul li div.arrows div i {
+    font-size: 3.45vw;
+  }
+  div.menu div.right-side {
+    display: none;
+  }
+  div.menu div.left-side {
+    width: 100%;
+    padding-right: 11%;
+  }
+  div.menu div.left-side .more-items, div.menu div.left-side .less-items {
+    padding-right: 5px;
+  }
+}
+
+@media (max-aspect-ratio: 400 / 500) {
+  div.landing-page {
+    height: 60vh;
+  }
+  div.order-form {
+    height: 50vh;
+  }
+}
+
+@media (max-aspect-ratio: 250 / 500) {
+  div.landing-page {
+    height: 40vh;
+  }
+  div.order-form {
+    height: 40vh;
+  }
 }
 /*# sourceMappingURL=App.css.map */

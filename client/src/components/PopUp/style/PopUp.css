@@ -23,6 +23,12 @@
   right: 30%;
   border-radius: 10px;
   background-color: ghostwhite;
+  /*@media screen and (max-width: 500px)
+    {
+        .item-description { font-size: 15px; }
+        .close-button { font-size: 20px;}
+        .popup { left: auto; right: auto; }
+    }*/
 }
 
 .popup .item-image {
@@ -50,18 +56,5 @@
 
 .popup .close-button:hover {
   cursor: pointer;
-}
-
-@media screen and (max-width: 500px) {
-  .popup .item-description {
-    font-size: 15px;
-  }
-  .popup .close-button {
-    font-size: 20px;
-  }
-  .popup .popup {
-    left: auto;
-    right: auto;
-  }
 }
 /*# sourceMappingURL=PopUp.css.map */

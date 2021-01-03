@@ -30,7 +30,7 @@ function ItemsMenu({ type, orderMode, setOrderItemsList })
 
     return (
         <>
-        <div className={`${type}-menu`} id={`${type}-menu-anchor`}>
+        <div className={`${type}-menu item-menu`} id={`${type}-menu-anchor`}>
             <div className='medium-text declaration'>{type} Menu</div>
             <div className='menu'>
                 <div className='left-side'>
