@@ -15,6 +15,7 @@ For the database, I used a free cluster of <a href='https://www.mongodb.com/2'>M
 ### Frontend
 The frontend of this application consists of four main components. The landing page, the menu (one for coffee and one for cookies), the form that the uses fills out to make an order and a pop-up window that shows an image and the description of any item.
 The forntend was made with <a href='https://reactjs.org/'>React</a>, using the hooks interface.
+Styling was  done using <a href='https://sass-lang.com/'>Sass</a>.
 
 ### Deployment
 This application was deployed using <a href='https://www.heroku.com/'>Heroku</a> and <a href='https://git-scm.com/'>Git</a>.
