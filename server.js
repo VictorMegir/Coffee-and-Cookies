@@ -31,7 +31,6 @@ server.use('/api/items', items);
 const orders = require('./routes/api/orders');
 server.use('/api/order', orders);
 
-
 server.use(express.static('client/build'));
 
 server.get('/favicon', (req, res) => {
