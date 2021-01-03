@@ -32,8 +32,18 @@ const orders = require('./routes/api/orders');
 server.use('/api/order', orders);
 
 
+server.use(express.static('client/build'));
+
+server.get('/favicon', (req, res) => {
+    res.sendFile(path.join(__dirname, "client", "build", "favicon.ico"));
+});
+
+server.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
 // Serve static assets if in production
-if(process.env.NODE_ENV === 'production') 
+/*if(process.env.NODE_ENV === 'production') 
 {
     server.use(express.static('client/build'));
     server.use(favicon(path.join(__dirname, "build", "favicon.ico")));
@@ -41,7 +51,7 @@ if(process.env.NODE_ENV === 'production')
     server.get('*', (req, res) => {
         res.sendFile(path.join(__dirname, 'build', 'index.html'));
     });
-};
+};*/
 
 // Server start listening
 const port = process.env.PORT || 5000;
