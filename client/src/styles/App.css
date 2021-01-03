@@ -190,6 +190,13 @@
   .order-form div.form-body form div input.order-button {
     font-size: 2.45vw;
   }
+  div.menu div.left-side ul li div.overlay div.popup {
+    left: 20%;
+    right: 20%;
+  }
+  div.menu div.left-side ul li div.overlay .close-button {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 500px) {
