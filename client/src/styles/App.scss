@@ -5,27 +5,27 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.large-text { font-size: 62px; opacity: 1.0; }
-.medium-text { font-size: 42px; opacity: 0.85; }
-.small-text { font-size: 32px; opacity: 0.7; }
+.large-text { font-size: 4.45vw; opacity: 1.0; }
+.medium-text { font-size: 2.45vw; opacity: 0.85; }
+.small-text { font-size: 1.45vw; opacity: 0.7; }
 
 .declaration 
 {
-  padding: 25px;
-  padding-left: 100px;
+  padding: 1.5%;
+  padding-left: 5.5%;
   background-color: #af8c79;
   text-transform: capitalize;
 }
 
 .item-price-list 
 {
-  padding-left: 100px;
+  padding-left: 11%;
   li 
   { 
     display: flex;
     justify-content: flex-start;
-    padding-top: 25px;
-    padding-bottom: 20px;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
     .price { padding-right: 15px; }
     .price::after { content: '€'}
     .item span:hover { cursor: pointer; opacity: 0.7; }
@@ -40,14 +40,16 @@
 
 .right-side 
 {
-    width: 40%;
-    display: inline-block;
-    padding-right: 100px;
-    padding-top: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     img 
     {
-        width: 100%;
+        width: 75%;
         height: auto;
+        object-fit: contain;
         border-radius: 10px;
     }
 }
@@ -73,7 +75,7 @@
     text-align: center;
     display: inline;
     padding: 15px;
-    &:hover span { opacity: 70%; }
+    &:hover span { opacity: 0.7; }
   }
 }
 

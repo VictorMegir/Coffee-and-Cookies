@@ -8,29 +8,29 @@
 }
 
 .large-text {
-  font-size: 62px;
+  font-size: 4.45vw;
   opacity: 1.0;
 }
 
 .medium-text {
-  font-size: 42px;
+  font-size: 2.45vw;
   opacity: 0.85;
 }
 
 .small-text {
-  font-size: 32px;
+  font-size: 1.45vw;
   opacity: 0.7;
 }
 
 .declaration {
-  padding: 25px;
-  padding-left: 100px;
+  padding: 1.5%;
+  padding-left: 5.5%;
   background-color: #af8c79;
   text-transform: capitalize;
 }
 
 .item-price-list {
-  padding-left: 100px;
+  padding-left: 11%;
 }
 
 .item-price-list li {
@@ -40,8 +40,8 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  padding-top: 25px;
-  padding-bottom: 20px;
+  padding-top: 5%;
+  padding-bottom: 2.5%;
 }
 
 .item-price-list li .price {
@@ -67,15 +67,23 @@
 }
 
 .right-side {
-  width: 40%;
-  display: inline-block;
-  padding-right: 100px;
-  padding-top: 10%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .right-side img {
-  width: 100%;
+  width: 75%;
   height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
   border-radius: 10px;
 }
 
@@ -106,7 +114,7 @@
 }
 
 .container .more-items:hover span, .container .less-items:hover span {
-  opacity: 70%;
+  opacity: 0.7;
 }
 
 .arrows {

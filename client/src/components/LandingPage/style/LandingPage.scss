@@ -11,27 +11,27 @@
         flex-direction: column;
         justify-content: center;
         width: 50%;
-        padding-left: 100px;
+        padding-left: 5.5%;
 
-        .large-text { padding-top: 60px; padding-bottom: 60px; }
-        .medium-text { padding-top: 50px; padding-bottom: 50px; }
-        .small-text { padding-top: 30px; padding-bottom: 30px; }
+        .large-text { padding-top: 10%; padding-bottom: 10%; }
+        .medium-text { padding-top: 5%; padding-bottom: 5%; }
+        .small-text { padding-top: 2.5%; padding-bottom: 2.5%; }
     }
 
     .button-container
     { 
-        padding-top: 50px;
+        padding-top: 5%;
         display: inline-block;
     }
 
     button 
     {
-        font-size: 32px;
+        font-size: 1.45vw;
         font-weight: 500;
         color: white;
         background-color: #3F3D56;
-        padding: 10px;
         border: 0;
+        padding: 2%;
         border-radius: 10px;
         box-shadow: 3px 3px 10px grey;
         outline-width: 0;

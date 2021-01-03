@@ -11,7 +11,7 @@ function LandingPage()
                 <div className='medium-text'>Start your day with a warm cup of coffee over some nice cookies.</div>
                 <div className='small-text'>We will deliver the coffee and cookies fo your choice right to your home or to your office.</div>
                 <div className='button-container'>
-                    <a href='#form'>'<button>Order Here</button></a>
+                    <a href='#form'><button>Order Here</button></a>
                 </div>
             </div>
             <div className='right-side'>

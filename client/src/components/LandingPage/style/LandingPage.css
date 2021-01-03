@@ -21,36 +21,36 @@
       -ms-flex-pack: center;
           justify-content: center;
   width: 50%;
-  padding-left: 100px;
+  padding-left: 5.5%;
 }
 
 .landing-page .left-side .large-text {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .landing-page .left-side .medium-text {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .landing-page .left-side .small-text {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
 
 .landing-page .button-container {
-  padding-top: 50px;
+  padding-top: 5%;
   display: inline-block;
 }
 
 .landing-page button {
-  font-size: 32px;
+  font-size: 1.45vw;
   font-weight: 500;
   color: white;
   background-color: #3F3D56;
-  padding: 10px;
   border: 0;
+  padding: 2%;
   border-radius: 10px;
   -webkit-box-shadow: 3px 3px 10px grey;
           box-shadow: 3px 3px 10px grey;

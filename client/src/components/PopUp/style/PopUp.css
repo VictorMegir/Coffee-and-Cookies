@@ -17,7 +17,7 @@
 .popup {
   position: absolute;
   z-index: 100;
-  padding: 10px;
+  padding: 1.25%;
   margin: auto;
   left: 30%;
   right: 30%;
@@ -33,7 +33,7 @@
 }
 
 .popup .item-description {
-  font-size: 26px;
+  font-size: 25px;
 }
 
 .popup .close-button {
@@ -50,5 +50,18 @@
 
 .popup .close-button:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .popup .item-description {
+    font-size: 15px;
+  }
+  .popup .close-button {
+    font-size: 20px;
+  }
+  .popup .popup {
+    left: auto;
+    right: auto;
+  }
 }
 /*# sourceMappingURL=PopUp.css.map */
