@@ -33,12 +33,12 @@ server.use('/api/order', orders);
 
 server.use(express.static('client/build'));
 
-server.get('/favicon', (req, res) => {
+server.get('/favicon.ico', (req, res) => {
     res.sendFile(path.join(__dirname, "client", "build", "favicon.ico"));
 });
 
 server.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+    res.sendFile(path.join(__dirname, "client", 'build', 'index.html'));
 });
 
 // Serve static assets if in production
