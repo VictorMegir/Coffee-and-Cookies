@@ -4,7 +4,7 @@ This websites allows the user to browse over a selection of coffees and cookies.
 The user can click on the name of any item on the menu to see an image of the item, as well as a short description.
 Finally the user can make an order for any number of items by inputing their name and address.
 
-Check out the website <a href='https://infinite-springs-77128.herokuapp.com/'>here</a>.
+Check out the website <a href='https://infinite-springs-77128.herokuapp.com/' target='blank'>here</a>.
 
 ### Backend
 The backend of this application provides an endpoint for getting the item information from the database for all the items displayed on the menu.
