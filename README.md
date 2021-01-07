@@ -1,4 +1,4 @@
-# Coffe and Cookies
+# Coffee and Cookies
 ## A website with coffee and cookies.
 This websites allows the user to browse over a selection of coffees and cookies.
 The user can click on the name of any item on the menu to see an image of the item, as well as a short description.
