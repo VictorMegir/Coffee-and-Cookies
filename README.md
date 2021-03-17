@@ -9,7 +9,7 @@ Check out the website <a href='https://infinite-springs-77128.herokuapp.com/'>he
 ### Backend
 The backend of this application provides an endpoint for getting the item information from the database for all the items displayed on the menu.
 The backend also provides an endpoint that creates an order object with the user's information and stores it in the database.
-These endpoints were set up using <a href='https://expressjs.com/'>Expres.js</a>
+These endpoints were set up using <a href='https://expressjs.com/'>Express.js</a>
 
 ### Database
 For the database, I used a free cluster of <a href='https://www.mongodb.com/2'>MongoDB</a>. For accessing and working with the database I used the Node.js library <a href='https://mongoosejs.com/'>mongoose</a>.
