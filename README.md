@@ -26,4 +26,4 @@ This application was deployed using <a href='https://www.heroku.com/'>Heroku</a>
 The images for this application were found on the internet and I do not own any of them. They are stored in a personal photo album on <a href='https://imgur.com/'>Imgur</a>.
 
 ### Credits
-This website is inspired by <a href='https://www.salushiexpress.co.za/'>Salushu Express</a>.
+This website is inspired by <a href='https://www.salushiexpress.co.za/'>Salushi Express</a>.
