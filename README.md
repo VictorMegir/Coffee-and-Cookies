@@ -1,6 +1,6 @@
 # Coffee and Cookies
 ## A website with coffee and cookies.
-This websites allows the user to browse over a selection of coffees and cookies.
+This website allows the user to browse over a selection of coffees and cookies.
 The user can click on the name of any item on the menu to see an image of the item, as well as a short description.
 Finally the user can make an order for any number of items by inputing their name and address.
 
